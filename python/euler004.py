@@ -4,4 +4,4 @@
 # differs from a previous x). This way, 99 * 98 and 98 * 99 won't occur.
 numbers = [x*y for x in xrange(999, 99, -1) for y in xrange (999-(999-x), 99, -1)]
 
-print max([x for x in a if str(x)[::-1] == str(x)])
+print max([x for x in numbers if str(x)[::-1] == str(x)])
