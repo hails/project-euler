@@ -17,7 +17,7 @@ def is_prime(number):
 
 number = 2
 primes = []
-while(len(primes) <= 10001):
+while(len(primes) <= 10000):
     if is_prime(number):
         primes.append(number)
     number += 1
