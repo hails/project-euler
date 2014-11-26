@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python 2
 # -*- encoding: utf-8 -*-
 
 """ Problem 8
